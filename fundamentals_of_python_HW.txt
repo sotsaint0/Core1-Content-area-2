@@ -1,0 +1,95 @@
+score = 0 
+username = input("Please enter your name: ")
+num1 = 5
+num2 = 7
+answer = num1 + num2
+print("Question 1")
+useranswer = int(input ("what is " + str(num1) + " + " + str(num2) + " = ") )
+if useranswer == answer:
+    print("You are correct " + (username))
+    score += 1
+else:
+    print("You are incorrect " + (username))
+    
+num3 = 10
+num4 = 8
+answer = num3 - num4
+print("Question 2")
+useranswer = int(input ("What is " + str(num3) + "-" + str(num4) + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+
+num5 = 2
+answer = num5 * num5
+print("Question 3")
+useranswer = int(input ("What is " + str(num5) + " multiplied by " + str(num5) + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+
+num6 = 6
+answer = num6 **2
+print("Question 4")
+useranswer = int(input ("What is " + str(num6) + " to the power of 2 " + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+
+num7 = 20
+answer = num7 / num1
+print("Question 5")
+useranswer = int(input ("What is " + str(num7) + " divided by " + str(num1) + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+
+num8 = 44
+num9 = 11
+answer = num8 / num9
+print("Question 6")
+useranswer = int(input ("What is " + str(num8) + " divided by " + str(num9) + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+
+answer = num4 + num3
+print("Question 7")
+useranswer = int(input ("what is " + str(num4) + " + " + str(num3) + " = ") )
+if useranswer == answer:
+    print("You are correct " + (username))
+    score += 1
+else:
+    print("You are incorrect " + (username))
+
+answer = num3 * num8
+print("Question 8")
+useranswer = int(input ("What is " + str(num3) + " multiplied by " + str(num8) + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+
+answer = num9 + num7
+print("Question 9")
+useranswer = int(input ("what is " + str(num9) + " + " + str(num7) + " = ") )
+if useranswer == answer:
+    print("You are correct " + (username))
+    score += 1
+else:
+    print("You are incorrect " + (username))
+
+answer = num8 - num7
+print("Question 10")
+useranswer = int(input ("What is " + str(num8) + "-" + str(num7) + " = "))
+if useranswer == answer:
+    print("You are correct " + (username))
+else:
+    print("You are incorrect " + (username))
+    
+print("You have completed the test, congratulations " + (username))
